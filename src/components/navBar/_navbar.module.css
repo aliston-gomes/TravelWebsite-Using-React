@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+#navbarBlock {
+  height: 73px;
+  width: 100%;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  border-bottom: #b2b2b2 1px solid;
+}
+#navbarBlock > article {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+#logoBlock a {
+  font-family: "Fredoka One", cursive;
+  color: #ff2e63;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 1.4px;
+  text-decoration: none;
+}
+.icon {
+  color: black;
+  font-size: 35px;
+  display: inline-block;
+  margin: 0 5px;
+}
+.menuBlock ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.menuBlock ul li a {
+  color: #2192ff;
+  font-weight: 900;
+  text-transform: Captilise;
+  letter-spacing: 1.4px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 6px;
+  font-size: 14px;
+  border: 1px solid #2192ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.menuBlock ul li a:hover {
+  background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+  color: #fff !important;
+  border: 1px solid #2192ff;
+}
+.logoutBtn {
+  color: #ff5858;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid #ff5858;
+  font-size: 16px;
+  border-radius: 8px;
+  /* font-weight: bold; */
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.15s;
+  cursor: pointer;
+}
+.logoutBtn:hover {
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  color: #fff;
+  cursor: pointer;
+  transition: all ease-in-out 0.15s;
+}
+.avatarURL {
+  width: auto !important;
+  border: none !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatarURL img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 4px 10px;
+  border: 2px solid black;
+}

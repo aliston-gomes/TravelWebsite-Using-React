@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@media only screen and (max-width:620px){
+  #authBlock article {
+  background-color: #fff;
+  height: 60vh;
+  display: flex;
+  /* flex-direction: column; */
+  padding: 10px;
+  border-radius: 4px;
+  margin: 20px auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.authRight{
+  width: 100% !important;
+}
+
+
+}
+#authBlock {
+  height: 88vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#authBlock article {
+  background-color: #fff;
+  height: 60vh;
+  display: flex;
+  /* flex-direction: column; */
+  padding: 10px;
+  border-radius: 4px;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.authLeft {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #ff2e63;
+  letter-spacing: 2px;
+  flex-basis: 40%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  /* height: 75vh; */
+  flex-direction: column;
+  padding: 30px;
+  border-right: 2px solid #efefef;
+}
+
+.authRight {
+  flex-basis: 60%;
+  background-color: #fff;
+  padding: 60px 40px;
+}
+
+.authRight form {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px 20px;
+}
+
+.authRight form div {
+  flex-basis: 47%;
+}
+
+.authRight form label {
+  width: 100%;
+  display: inline-block;
+  color: #ff2e63;
+  padding: 4px 4px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.authRight form input {
+  width: 100%;
+  display: block;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.authRight form > div:last-child {
+  flex-basis: 100% !important;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.authRight form button {
+  background-color: #2192ff;
+  /* width: 100%; */
+  margin: 10px 0;
+  padding: 20px 40px;
+  border: 1px solid #2192ff;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+}
+
+.authRight form button:hover {
+  background-color: transparent;
+  color: #2192ff;
+  border: 1px solid #2192ff;
+}
+#authLoginBlock article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+#authLoginBlock h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ff2e63;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+}
+#authLoginBlock form {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0px 1px 2px 0px #ccc;
+}
+
+#authLoginBlock form label {
+  width: 100%;
+  padding: 5px 0;
+  font-weight: 400;
+  color: #ff2e63;
+  display: inline-block;
+}
+#authLoginBlock form input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 8px 13px;
+  margin: 5px 0;
+}
+#authLoginBlock form button {
+  background: #2192ff;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid #2192ff;
+  font-size: 16px;
+  border-radius: 8px;
+  /* font-weight: bold; */
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.15s;
+}
+#authLoginBlock form button:hover {
+  color: #2192ff;
+  background: #fff;
+  cursor: pointer;
+  transition: all ease-in-out 0.15s;
+}
+#authLoginBlock form div {
+  position: relative;
+}
+#authLoginBlock form .eyeIcon {
+  position: absolute;
+  right: 0px;
+  top: 38px;
+  background: #eeeeeeb3;
+  padding: 3px 13px;
+  border-radius: 0px 4px 4px 0px;
+  border-left: 2px solid #eee;
+  cursor: pointer;
+}
+#authLoginBlock form .eyeIcon svg {
+  font-size: 20px;
+}
+#authLoginBlock form .eyeIcon:hover {
+  background-color: #2192ff;
+  color: #fff;
+}
+#authLoginBlock form aside {
+  padding: 20px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+#authLoginBlock form aside span a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background: rgb(157, 152, 152);
+  padding: 5px 18px 7px 18px;
+  border-radius: 4px;
+}
+#authLoginBlock form p {
+  border-bottom: 2px solid #eee;
+  border-top: 2px solid #eee;
+}
+#authLoginBlock form p a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 0;
+}
+
